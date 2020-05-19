@@ -1,0 +1,76 @@
+body{
+    background-image: url(img/pandorika.png);
+}
+
+header{
+    background-color: greenyellow;
+}
+
+.title{
+    font-family: Georgia;
+    text-align: center;
+    color: white;
+}
+
+}
+
+.block{
+    align-items: center;
+    text-align: center;
+}
+
+.img-center{
+    border: 3px solid green;
+ 
+}
+
+.text{
+    background-color: black;
+    display: flex;
+    text-align: left;
+    margin-left: unset;
+    color: white;
+    font-size: 250%;
+    font-family: Georgia;
+}
+
+*{
+    box-sizing: content-box;
+}
+/*...............................................
+                phone
+................................................*/
+@media (max-width: 1160px){
+    
+    .title {
+        width: 100%
+    }
+    
+    .site{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .text{
+        background-color: black;
+        display: flex;
+        color: white;
+        font-size: 100%;
+        font-family: monospace;
+        padding-right: 15px;
+    }
+
+    .img-center{
+        display: block;
+        margin: auto;
+        align-items: center;
+        width: 940px;
+        height: 500px; 
+
+   
+}
+
